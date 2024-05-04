@@ -26,9 +26,9 @@ $\Delta \bar{\sigma}=-e\frac{\mathrm{K}(u-d)}{\bar{\sigma}^3}\left(1-\tanh \left
 
 $\Delta \underline{\sigma}=-e\frac{\mathrm{K}(u-d)}{\underline{\sigma}^3}\left(1-\tanh \left(\frac{K(u-d)}{\underline{\sigma}^2}\right)^2\right)$
 
-$\Delta \mathrm{K}=e\left[-\frac{(u-d)}{\underline{\sigma}^2}\left(1-\tanh \left(\frac{K(u-d)}{\underline{\sigma}^2}\right)^2\right),\right. \left.\qquad\qquad-\frac{(u-d)}{\bar{\sigma}^2}\left(1-\tanh \left(\frac{K(u-d)}{\bar{\sigma}^2}\right)^2\right)\right]$
+$\Delta \mathrm{K}=e\left[-\frac{(u-d)}{\underline{\sigma}^2}\left(1-\tanh \left(\frac{K(u-d)}{\underline{\sigma}^2}\right)^2\right),\right.$
 
-
+$\left.\qquad\qquad-\frac{(u-d)}{\bar{\sigma}^2}\left(1-\tanh \left(\frac{K(u-d)}{\bar{\sigma}^2}\right)^2\right)\right]$
 
 ## Kinematic Model of Nvidia Jetracer Pro AI 
 
