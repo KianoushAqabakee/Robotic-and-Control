@@ -12,8 +12,8 @@
 | [Type-2 Generalized Fuzzy Hyperbolic (IT2-GFH)](#type-2-generalized-fuzzy-hyperbolic-it2-gfh) | Advanced fuzzy logic control system, including forward formula and update rule.                |
 | [Kinematic Model of Nvidia Jetracer Pro AI](#kinematic-model-of-nvidia-jetracer-pro-ai)      | Kinematic model for path planning and control in Nvidia Jetracer Pro AI.                         |
 | [Dynamic Model of Lower Limb Exoskeleton Rehabilitation Robot](#dynamic-model-of-lower-limb-exoskeleton-rehabilitation-robot) | Development of a dynamic model for lower limb exoskeleton rehabilitation.                        |
-| [Exoskeleton Robot]([link] https://github.com/KianoushAqabakee/Robotic-and-Control/tree/main/Exoskeleton%20Robot)                                                      | Files related to the exoskeleton project.                                                        |
-| [Nvidia Jetracer Pro Control/MPC-RBF Control]([link] https://github.com/KianoushAqabakee/Robotic-and-Control/tree/main/Nvidia%20Jetiracer%20Pro%20Control/MPC-RBF%20Control)   | Code for Nvidia Jetracer Pro AI control models.                                                  |
+| [Exoskeleton Robot]([link](https://github.com/KianoushAqabakee/Robotic-and-Control/tree/main/Exoskeleton%20Robot))                                                      | Files related to the exoskeleton project.                                                        |
+| [Nvidia Jetracer Pro Control/MPC-RBF Control]([link](https://github.com/KianoushAqabakee/Robotic-and-Control/tree/main/Nvidia%20Jetiracer%20Pro%20Control/MPC-RBF%20Control))   | Code for Nvidia Jetracer Pro AI control models.                                                  |
 | [Sliding Mode Control Based on the IT2-GFHS](#sliding-mode-control-based-on-the-it2-gfhs)    | Sliding mode control implementations using the IT2-GFHS system.                                  |
 
 ## Type-2 Generalized Fuzzy Hyperbolic (IT2-GFH)
