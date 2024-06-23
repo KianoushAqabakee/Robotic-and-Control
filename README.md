@@ -1,7 +1,3 @@
-Here is the combined and improved `README.md` file:
-
----
-
 # Robotic-and-Control
 
 ![Project](./Nvidia%20Jetiracer%20Pro%20Control/MPC-RBF%20Control/QT_Tracking_Results_1.png)
@@ -24,18 +20,27 @@ Here is the combined and improved `README.md` file:
 
 ### Forward Formula
 
-$ y_{IT2-GFHS} = W \psi $
-$ W = [\alpha, \underline{\beta}, \bar{\beta}] $
-$ \psi = \left[1, \tanh \left(\frac{K(u-d)}{\underline{\sigma}^2}\right), \tanh \left(\frac{K(u-d)}{\bar{\sigma}^2}\right)\right] $
+$y_{I T 2-G F H S}=W \psi$
+$W=[\alpha, \underline{\beta}, \bar{\beta}]$
+$\psi=\left[1, \tanh \left(\frac{K(u-d)}{\underline{\sigma}^2}\right), \tanh \left(\frac{K(u-d)}{\bar{\sigma}^2}\right)\right]$
 
 ### Update Rule
 
-$ E = \frac{1}{2}\left(y_{\text{actual}} - y_{IT2-GFHS}\right)^2 = \frac{1}{2} e^2 $
-$ \Delta W = e \psi $
-$ \Delta d = e \left[-\frac{K}{\underline{\sigma}^2} \left(1 - \tanh^2 \left(\frac{K(u-d)}{\underline{\sigma}^2}\right)\right), -\frac{K}{\bar{\sigma}^2} \left(1 - \tanh^2 \left(\frac{K(u-d)}{\bar{\sigma}^2}\right)\right)\right] $
-$ \Delta \bar{\sigma} = -e \frac{K(u-d)}{\bar{\sigma}^3} \left(1 - \tanh^2 \left(\frac{K(u-d)}{\bar{\sigma}^2}\right)\right) $
-$ \Delta \underline{\sigma} = -e \frac{K(u-d)}{\underline{\sigma}^3} \left(1 - \tanh^2 \left(\frac{K(u-d)}{\underline{\sigma}^2}\right)\right) $
-$ \Delta K = e \left[-\frac{(u-d)}{\underline{\sigma}^2} \left(1 - \tanh^2 \left(\frac{K(u-d)}{\underline{\sigma}^2}\right)\right), -\frac{(u-d)}{\bar{\sigma}^2} \left(1 - \tanh^2 \left(\frac{K(u-d)}{\bar{\sigma}^2}\right)\right)\right] $
+$E=\frac{1}{2}\left(y_{\text {actual }}-y_{I T 2-G F H S}\right)^2=\frac{1}{2} e^2$
+
+$\Delta \mathrm{W} = e  \psi$
+
+$\Delta \mathrm{d}=e\left[-\frac{\mathrm{K}}{\underline{\sigma}^2}\left(1-\tanh \left(\frac{K(u-d)}{\underline{\sigma}^2}\right)^2\right),\right.$
+
+$\left.\qquad\qquad-\frac{\mathrm{K}}{\bar{\sigma}^2}\left(1-\tanh \left(\frac{K(u-d)}{\bar{\sigma}^2}\right)^2\right)\right]$
+
+$\Delta \bar{\sigma}=-e\frac{\mathrm{K}(u-d)}{\bar{\sigma}^3}\left(1-\tanh \left(\frac{K(u-d)}{\bar{\sigma}^2}\right)^2\right)$
+
+$\Delta \underline{\sigma}=-e\frac{\mathrm{K}(u-d)}{\underline{\sigma}^3}\left(1-\tanh \left(\frac{K(u-d)}{\underline{\sigma}^2}\right)^2\right)$
+
+$\Delta \mathrm{K}=e\left[-\frac{(u-d)}{\underline{\sigma}^2}\left(1-\tanh \left(\frac{K(u-d)}{\underline{\sigma}^2}\right)^2\right),\right.$
+
+$\left.\qquad\qquad-\frac{(u-d)}{\bar{\sigma}^2}\left(1-\tanh \left(\frac{K(u-d)}{\bar{\sigma}^2}\right)^2\right)\right]$
 
 ## Kinematic Model of Nvidia Jetracer Pro AI 
 
