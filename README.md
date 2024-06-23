@@ -57,15 +57,15 @@ $ \beta = \arctan \left(\frac{L_{xf} \tan (\delta_r) + L_{xr} \tan (\delta_f)}{L
 
 ## Exoskeleton Robot
 
-Contains files related to the exoskeleton project.
+Contains files related to the exoskeleton project. In this section multiple control approaches are implemented on lower limb exoskeleton robot. 
 
 ## Nvidia Jetracer Pro Control/MPC-RBF Control
 
-Holds code for the Nvidia Jetracer Pro AI control models.
+This section contains control implementations on Nvidia Jetracer pro kinematic.
 
 ## Sliding Mode Control Based on the IT2-GFHS
 
-Includes sliding mode control implementations using the IT2-GFHS system.
+Includes sliding mode control implementations using the IT2-GFHS system as indentifier.
 
 ## Interval Type-2 Generalized Fuzzy Hyperbolic
 
